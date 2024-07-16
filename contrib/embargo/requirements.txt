@@ -21,3 +21,4 @@ urllib3==1.26.5
 websocket-client==0.57.0
 Werkzeug==2.2.3
 
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
