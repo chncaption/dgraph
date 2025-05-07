@@ -6,7 +6,7 @@ clint==0.5.1
 docker==4.2.0
 embargo==0.1.1
 Flask==2.3.2
-gevent==1.4.0
+gevent==25.4.1
 greenlet==0.4.15
 httpie==3.1.0
 idna==2.9
@@ -21,3 +21,4 @@ urllib3==1.26.5
 websocket-client==0.57.0
 Werkzeug==2.2.3
 
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
